@@ -1,6 +1,6 @@
 (ns tdd-in-cljs.core)
 
-(defn -main
+(defn main
   "I don't do a whole lot ... yet."
   []
   (enable-console-print!)
