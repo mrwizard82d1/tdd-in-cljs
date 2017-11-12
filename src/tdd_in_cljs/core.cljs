@@ -1,7 +1,9 @@
-(ns tdd-in-cljs.core
-  (:gen-class))
+(ns tdd-in-cljs.core)
 
 (defn -main
   "I don't do a whole lot ... yet."
-  [& args]
+  []
+  (enable-console-print!)
   (println "Hello, World!"))
+
+(main)
