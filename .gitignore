@@ -10,6 +10,12 @@ pom.xml.asc
 .hgignore
 .hg/
 
+# Figwheel
+figwheel_server.log
+
+# Generated file
+resources/public/cljs/
+
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -59,3 +65,4 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+.idea/inspectionProfiles/
