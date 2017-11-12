@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.946"]]
   :plugins [[lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]
-            [lein-figwheel "0.5.6"]]
+            [lein-figwheel "0.5.14"]]
   :clean-targets ^{:protect false} [:target-path "out" "resources/public/cljs"]
   :figwheel {:css-dirs ["resources/public/css"]} ;; automated reload of CSS files
   :cljsbuild {:builds [{:id "dev" ; development configuration
