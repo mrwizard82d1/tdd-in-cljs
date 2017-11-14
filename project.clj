@@ -23,5 +23,6 @@
                         :source-paths ["src" "test"]
                         :compiler {:main runners.doo
                                    :optimizations :none
-                                   :output-to "resources/public/cljs/tests/all-tests.js"}}]})
+                                   :output-to "resources/public/cljs/tests/all-tests.js"}}]
+              :test-commands {"test" ["lein" "doo" "phantom" "test" "once"]}})
 
