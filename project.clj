@@ -8,6 +8,7 @@
   :plugins [[lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]
             [lein-figwheel "0.5.14"]]
   :clean-targets ^{:protect false} [:target-path "out" "resources/public/cljs"]
+  :figwheel {:css-dirs "resources/public/css"}
   :cljsbuild 
   {:builds [{:id "dev" ; development configuration
              :source-paths ["src"] ; paths to monitor for build
