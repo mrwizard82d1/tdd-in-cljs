@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.946"]]
-  :plugins [[lein-cljsbuild "1.1.7"]
+  :plugins [[lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]
             [lein-figwheel "0.5.14"]]
   :cljsbuild 
   {:builds [{:id "dev" ; development configuration
@@ -15,5 +15,5 @@
                         :asset-path "cljs/out" ; relative path for load-dependent files 
                         :output-to "resources/public/cljs/main.js" ; location of main build file
                         :output-dir "resources/public/cljs/out" ; directory for temporary files
-                        :source-map-timestamp true} ; source maps - hurray!
-             }]})
+                        :source-map-timestamp true}}]}) ; source maps - hurray!
+
