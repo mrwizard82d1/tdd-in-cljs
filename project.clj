@@ -12,7 +12,8 @@
   :clean-targets ^{:protect false} [:target-path "out" "resources/public/cljs"]
   :figwheel {:css-dirs "resources/public/css"}
   :cljsbuild 
-  {:builds [{:id "dev" ; development configuration
+  {:test-commands {"test" ["lein" "doo" "phantom" "test" "once"]}
+   :builds [{:id "dev" ; development configuration
              :source-paths ["src"] ; paths to monitor for build
              :figwheel true ; Enable Figwheel
              :compiler {:main tdd-in-cljs.core ; your main namespace
