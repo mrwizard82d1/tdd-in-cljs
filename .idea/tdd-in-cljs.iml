@@ -25,6 +25,9 @@
     <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-unshaded:v20170910" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.jsinterop/jsinterop-annotations:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: com.google.protobuf/protobuf-java:3.0.2" level="project" />
+    <orderEntry type="library" name="Leiningen: doo:0.1.8" level="project" />
+    <orderEntry type="library" name="Leiningen: karma-reporter:0.1.0" level="project" />
+    <orderEntry type="library" name="Leiningen: lein-doo:0.1.8" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.8.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojurescript:1.9.946" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
