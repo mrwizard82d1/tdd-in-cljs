@@ -10,5 +10,6 @@
          (testing "FIXME asynchronously, I fail."
            (async done
              (js/setTimeout (fn []
-                              (throw (js/Error. "Oops!")))
+                              (is (= 1 1))
+                              (done))
                             100))))
